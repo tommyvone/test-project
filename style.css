@@ -1,3 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #599fa2;
+}
+.header {
+  background-color: #ffdcff;
+  height: calc(100vh -70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0 20px 0;
+}
+h1 {
+  font-size: 55px;
+}
+a {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
   color: red;
+}
+.logo {
+  width: 300px;
+  margin-left: 10px;
+}
+ul {
+  display: flex;
+  padding-right: 10px;
+}
+li {
+  list-style: none;
+  padding-left: 16px;
+}
+button {
+  background-color: #108387;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+}
+.section__discription--about {
+  display: flex;
+  justify-content: center;
+}
+.section__discription--about p {
+  color: red;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+/*
+ ABOUT
+*/
+.about {
+  padding: 48px 0;
+  justify-content: center;
+  background-color: #c4c2ae;
+}
+.about__img--wrapper {
+  width: 40%;
+  padding-right: 10px;
+}
+img {
+  width: 100%;
+}
+.about p {
+  padding-left: 10px;
+}
+
+/*
+DISCORD
+*/
+.dicord {
+  padding: 48px 0;
+  justify-content: center;
+  background-color: #1a494a;
+  
+}
+.discord__img--wrapper {
+  width: 40%;
+  padding-right: 10px;
+}
+img {
+  width: 100%;
+}
+.section__discription--discord{
+  display: flex;
+}
+.section__discription--discord p {
+  font-size: 20px;
+  line-height: 1.5;
 }
